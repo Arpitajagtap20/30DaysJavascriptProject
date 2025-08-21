@@ -16,7 +16,7 @@ Welcome to my **30 Days of JavaScript** challenge! This repository documents my 
 
 | Day | Project Name               | Day | Project Name                  |
 |-----|----------------------------|-----|-------------------------------|
-| 1   | Variables & Console Output | 16  | Local Storage Demo            |
+| 1   | Calculator                 | 16  | Local Storage Demo            |
 | 2   | Functions & Parameters     | 17  | Accordion Menu                |
 | 3   | DOM Manipulation Basics    | 18  | Password Generator            |
 | 4   | Event Listeners            | 19  | Quiz App                      |
