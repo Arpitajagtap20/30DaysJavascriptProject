@@ -3,60 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Colorful Calculator</title>
     <style>
-        .row{
+        body {
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #030303;
+            text-shadow: 1px 1px 2px #6dd5ed;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .row {
             padding: 8px 0px;
         }
 
-        .button{
+        .input {
+            margin: 0px;
+            padding: 10px;
+            font-size: 24px;
+            border: 2px solid #4a90e2;
+            border-radius: 8px;
+            width: 260px;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .button {
             padding: 20px;
-            margin: 0px 3px;
-            border: 2px solid black;
-            border-radius: 9px;
+            margin: 5px;
+            border: none;
+            border-radius: 12px;
             cursor: pointer;
+            font-size: 18px;
+            width: 60px;
+            background: linear-gradient(145deg, #6dd5ed, #2193b0);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+
+        .button:active {
+            transform: scale(0.98);
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Basic Calculator </h1>
-    <div class="container" style="display: flex; align-items: center; flex-direction: column;">
+  <h1>
+    Basic Calculator <span style="font-size: 40px;">🧮</span>
+</h1>
+
+    <div class="container">
         <div class="row">
-            <input type="text" class="input" style="margin: 0px; padding: 10px;font-size: 20px;border: 2px solid black; border-radius: 5px;">
+            <input type="text" class="input" placeholder="0">
         </div>
-     
+
         <div class="row">
-            <button class="button">Clear</button>
+            <button class="button">AC</button>
             <button class="button">%</button>
         </div>
         <div class="row">
             <button class="button">7</button>
             <button class="button">8</button>
-             <button class="button">9</button>
+            <button class="button">9</button>
             <button class="button">*</button>
         </div>
-
-         <div class="row">
+        <div class="row">
             <button class="button">4</button>
             <button class="button">5</button>
-             <button class="button">6</button>
+            <button class="button">6</button>
             <button class="button">/</button>
         </div>
-
-         <div class="row">
+        <div class="row">
             <button class="button">1</button>
             <button class="button">2</button>
-             <button class="button">3</button>
+            <button class="button">3</button>
             <button class="button">+</button>
         </div>
-         <div class="row">
+        <div class="row">
             <button class="button">0</button>
             <button class="button">.</button>
-             <button class="button">-</button>
+            <button class="button">-</button>
             <button class="button">=</button>
         </div>
-       
     </div>
     
+<script src="calcy.js"></script>
+
 </body>
 </html>
