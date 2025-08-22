@@ -16,7 +16,7 @@ Welcome to my **30 Days of JavaScript** challenge! This repository documents my 
 
 | Day | Project Name               | Day | Project Name                  |
 |-----|----------------------------|-----|-------------------------------|
-| 1   | Calculator                 | 16  | Local Storage Demo            |
+| 1   | [Calculator](http://127.0.0.1:5500/calculator/calcy.html)                 | 16  | Local Storage Demo            |
 | 2   | Drum Stick                 | 17  | Accordion Menu                |
 | 3   | DOM Manipulation Basics    | 18  | Password Generator            |
 | 4   | Event Listeners            | 19  | Quiz App                      |
