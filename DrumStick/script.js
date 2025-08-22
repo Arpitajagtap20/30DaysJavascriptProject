@@ -1,14 +1,14 @@
 // Map key codes to sound file names
 const soundMap = {
-  65: 'sounds/crash.mp3',     // A
-  83: 'sounds/kick-bass.mp3', // S
-  68: 'sounds/snare.mp3',     // D
-  70: 'sounds/tom-1.mp3',     // F
-  71: 'sounds/tom-2.mp3',     // G
-  72: 'sounds/tom-3.mp3',     // H
-  74: 'sounds/tom-4.mp3',     // J
-  75: 'sounds/hihat.mp3',     // K
-  76: 'sounds/ride.mp3'       // L
+  65: 'sounds/Cello.mp3',     // A
+  83: 'sounds/Drum.mp3', // S
+  68: 'sounds/Guitar.mp3',     // D
+  70: 'sounds/Organ.mp3',     // F
+  71: 'sounds/Piano.mp3',     // G
+  72: 'sounds/Sitar.mp3',     // H
+  74: 'sounds/Tabla.mp3',     // J
+  75: 'sounds/Trumpet.mp3',     // K
+  76: 'sounds/Drum.mp3'       // L
 };
 
 // Play sound for a given key code
