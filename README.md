@@ -8,8 +8,8 @@ Welcome to my **30 Days of JavaScript** challenge! This repository documents my 
 
 - **Duration:** 30 Days  
 - **Goal:** Build consistency, improve problem-solving skills, and explore JavaScript fundamentals and beyond  
-- **Start Date:** August 20, 2025  
-- **End Date:** September 18, 2025  
+- **Start Date:** August 21, 2025  
+- **End Date:** September 19, 2025  
 
 ---
 ## 📅 Daily Projects Overview
